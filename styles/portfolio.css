@@ -1,0 +1,44 @@
+.github-flexbox{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.github-logo,
+.github-description{
+  border-bottom: 3px black solid;
+  padding-bottom: 40px;
+  width: 150px;
+}
+
+.github-description{
+  display: flex;
+  width: 300px;
+  padding-left: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  align-items: center;
+}
+
+.project-list-title{
+  background-color: rgb(77, 11, 11);
+  font-size: 20px;
+  font-weight: bold;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  color:  rgb(230, 228, 228);
+}
+
+.project-list{
+  text-align: left;
+  width:500px;
+}

@@ -1,0 +1,21 @@
+.sphe-flexbox{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.sphe-logo,
+.sphe-description{
+  border-bottom: 3px black solid;
+  padding-bottom: 40px;
+  width: 150px;
+}
+
+.sphe-description{
+  display: flex;
+  width: 300px;
+  padding-left: 30px;
+  align-items: center;
+  justify-content: center;
+}
