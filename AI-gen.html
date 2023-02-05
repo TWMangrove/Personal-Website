@@ -2,15 +2,15 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/header-alt.css">
-    <link rel="stylesheet" href="styles/body-alt.css">
+    <link id="headerStyleSheet" rel="stylesheet" href="styles/header-alt.css">
+    <link id="mainStyleSheet" rel="stylesheet" href="styles/body-alt.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&family=Josefin+Sans:wght@300;400;700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">   
     <title>My Journey to Building a Personal Website</title>
     <style>
       body {
-        font-family: Arial, sans-serif;
+        font-family: Roboto, sans-serif;
         padding-top: 80px;
         text-align: justify;
         width: 500px;
@@ -20,7 +20,7 @@
         text-align: center;
       }
       .container {
-        background-color: #f2f2f2;
+        background-color: #b8b8b8;
         padding: 20px;
         text-align: center;
       }
@@ -55,7 +55,11 @@
           <a class="curr-link" href="AI-gen.html"> 
             AI-Gen
           </a>
-        </div>  
+        </div>
+        <div>
+          <button class="toggle-button" onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+        </div>
+        <script src="functions.js"></script>   
       </nav>
     </header>
     <h1>My Journey to Building a Personal Website</h1>

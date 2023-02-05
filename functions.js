@@ -1,8 +1,6 @@
-
 function toggleStyleSheet(){
     var path = window. location. pathname;
     var page = path. split("/"). pop(); 
-    console.log(page);  
     // Task 1
     // Steps
     // 1 (a) Get style element by ID (hint: getElementById)
@@ -47,15 +45,9 @@ function toggleStyleSheet(){
     // hint: localStorage.setItem(name, value)
         localStorage.setItem("bodyStyle", newBodStyle);
         localStorage.setItem("headStyle", newHeadStyle);
-        if (page == "portfolio.html"){
-            localStorage.setItem("portStyle", newPortStyle);
-        }
-        if (page == "qualifications.html"){        
-            localStorage.setItem("qualStyle", newQualStyle);
-        }
-        if (page == "services.html"){
-            localStorage.setItem("servStyle", newServStyle);
-        }
+        localStorage.setItem("portStyle", newPortStyle);    
+        localStorage.setItem("qualStyle", newQualStyle);
+        localStorage.setItem("servStyle", newServStyle);
     }
 
 window.onload = function(){

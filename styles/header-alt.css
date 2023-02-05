@@ -45,7 +45,9 @@ nav{
 }
 
 .curr-link,
-.nav-link{
+.nav-link,
+.toggle-button
+{
   border-top: 0.5px groove rgb(226, 226, 226);
   border-bottom: 0.5px groove rgb(229, 229, 229);
   padding-top:20px;
@@ -63,4 +65,16 @@ nav{
 .nav-link{
   text-decoration: none; 
   background-color: rgb(47, 45, 45);
+}
+
+.toggle-button{
+  padding-left:2px;
+  font-family: Roboto, Arial;
+  font-size: 24px;
+  font-weight: lighter;
+  width: 100%;
+  border-right: none;
+  border-left: none;
+  background-color: rgb(47, 45, 45);
+  cursor: pointer;
 }
