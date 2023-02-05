@@ -6,29 +6,31 @@ header{
   flex-direction: row;
   padding: 0;
 
-  color: rgb(230, 228, 228);
+  color: rgb(172, 172, 172);
 
   position: fixed;
   top:0;
   left: 0;
   bottom:0;
 
-  border-right-width: 3px solid white;
+  border-right: 1px solid rgb(51, 50, 50);
   z-index: 10000;
 }
 
 .logo{
-  font-family: Itim, Arial; /*find different style*/
-  font-size: 38px;
-  
-  margin: 10px 20px 30px 10px;
+  margin:0;
+  padding: 5px;
+  font-family: Roboto, Arial; 
+  font-size: 40px;
+  margin: 20px 0px 30px 5px;
   flex:1;
   overflow: auto;
 }
 
-.logo:hover{
-  text-shadow: 3px 0.5px darkgreen;
-  cursor:default;
+@media (min-width: 1000px){
+  header{
+    width: 300px;
+  } 
 }
 
 nav{
@@ -44,8 +46,8 @@ nav{
 
 .curr-link,
 .nav-link{
-  border-top: 1px groove white;
-  border-bottom: 1px groove white;
+  border-top: 0.5px groove rgb(226, 226, 226);
+  border-bottom: 0.5px groove rgb(229, 229, 229);
   padding-top:20px;
   padding-bottom:20px;
   padding-left: 6px;
@@ -55,7 +57,7 @@ nav{
   background-color: darkgreen;
   margin: 0;
   font-size: 24px;
-  color: rgb(230, 228, 228);
+  color: rgb(163, 163, 163);
 }
 
 .nav-link{

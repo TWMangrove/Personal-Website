@@ -1,0 +1,67 @@
+.sphe-flexbox{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sphe-logo,
+.sphe-description{
+  border-bottom: 3px black solid;
+  padding-bottom: 15px;
+  width: 150px;
+}
+
+.sphe-logo{
+  filter: brightness(2);
+}
+
+.sphe-description{
+  display: flex;
+  width: 500px;
+  padding-left: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  width: 600px;
+  text-align: justify;
+  background-color: rgb(49, 37, 37);
+  border-radius: 15px;
+}
+
+.plans-flexbox{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.plans-title, 
+.plans-description{
+  padding: 15px;
+  overflow: hidden;
+  border-radius: 10px;
+  font-weight: lighter;
+}
+
+.plans-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 500px;
+  flex:2;
+  font-size: 24px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.plans-description{
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 600px;
+  text-align: center;
+  background-color: rgb(49, 37, 37);
+}

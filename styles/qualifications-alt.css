@@ -1,0 +1,90 @@
+.resume-button{
+  display: block;
+  margin: auto;
+  margin-top: 90px;
+  font-size: 16px;
+  text-decoration: wavy;
+  width: 260px;
+  border-radius: 100px;
+  box-shadow: 10px;
+  justify-content: center;
+  background-color:rgb(77, 11, 11);
+  color: rgb(230, 228, 228);
+  padding: 10px;
+}
+
+.resume-button:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.skills{
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  align-items: center;
+}
+
+.skills-list-title, 
+.skills-list{
+  padding: 15px;
+  overflow: hidden;
+  border-radius: 10px;
+  font-weight: lighter;
+}
+
+.skills-list-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 500px;
+  flex:2;
+  font-size: 24px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.skills-list{
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 600px;
+  text-align: center;
+  background-color: rgb(49, 37, 37);
+}
+
+.interest{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.interest-title, 
+.interests-description{
+  padding: 15px;
+  overflow: hidden;
+  border-radius: 10px;
+  font-weight: lighter;
+}
+
+.interest-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 500px;
+  flex:2;
+  font-size: 24px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.interest-description{
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 600px;
+  text-align: center;
+  background-color: rgb(49, 37, 37);
+}
