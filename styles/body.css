@@ -3,7 +3,6 @@ body{
   background-color: rgb(230, 228, 228);
   font-family: Roboto, Arial;
   font-weight: thin;
-  padding-bottom: 70px;
 }
 
 .intro-text{
@@ -119,7 +118,7 @@ body{
 .contact-info-2,
 .contact-info{
   display: flex;
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -128,4 +127,8 @@ body{
   box-shadow: 5px;
   color: rgb(230, 228, 228);
   justify-content: center;
+}
+
+.contact-info-2{
+  position:fixed;
 }
