@@ -8,7 +8,7 @@
 .sphe-logo,
 .sphe-description{
   border-bottom: 3px black solid;
-  padding-bottom: 40px;
+  padding-bottom: 12px;
   width: 150px;
 }
 
@@ -18,4 +18,36 @@
   padding-left: 30px;
   align-items: center;
   justify-content: center;
+}
+
+.plans-flexbox{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.plans-title, 
+.plans-description{
+  padding: 5px;
+  overflow: hidden;
+  width: 500px;
+}
+
+
+.plans-title{
+  background-color: rgb(77, 11, 11);
+  font-size: 20px;
+  font-weight: bold;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  color:  rgb(230, 228, 228);
+}
+.plans-description{
+  text-align: left;
+  margin-top: 18px;
+  width:500px;
 }
