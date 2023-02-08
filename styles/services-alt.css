@@ -8,7 +8,6 @@
 
 .sphe-logo,
 .sphe-description{
-  border-bottom: 3px black solid;
   padding-bottom: 15px;
   width: 150px;
 }
@@ -64,4 +63,6 @@
   width: 600px;
   text-align: center;
   background-color: rgb(49, 37, 37);
+  margin-bottom: 100px;
+  margin-bottom: 100px;
 }

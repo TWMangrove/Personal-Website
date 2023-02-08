@@ -1,7 +1,7 @@
 .resume-button{
   display: block;
   margin: auto;
-  margin-top: 90px;
+  margin-top: 50px;
   font-size: 16px;
   text-decoration: wavy;
   width: 260px;
@@ -62,8 +62,8 @@
 }
 
 .interest-title, 
-.interests-description{
-  padding: 15px;
+.interest-description{
+  padding: 10px;
   overflow: hidden;
   border-radius: 10px;
   font-weight: lighter;
@@ -85,6 +85,7 @@
   padding-left: 30px;
   padding-right: 30px;
   width: 600px;
-  text-align: center;
+  text-align: justify;
   background-color: rgb(49, 37, 37);
+  margin-bottom: 100px;
 }

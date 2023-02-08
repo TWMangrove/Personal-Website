@@ -8,7 +8,6 @@
 
 .github-logo,
 .github-description{
-  border-bottom: 3px black solid;
   padding-bottom: 15px;
   width: 150px;
 }
@@ -39,7 +38,8 @@
 
 
 .project-list-title, 
-.project-list{
+.project-list,
+.future-project-list{
   padding: 15px;
   overflow: hidden;
   border-radius: 10px;
@@ -55,13 +55,20 @@
   font-size: 24px;
   border: 1px solid white;
   border-radius: 20px;
+  margin-top: 20px;
 }
 
-.project-list{
-  margin-top: 20px;
+.project-list,
+.future-project-list{
+  margin-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
   width: 700px;
   text-align: justify;
   background-color: rgb(49, 37, 37);
+}
+
+.future-project-list{
+  margin-top: 30px;
+  margin-bottom: 100px;
 }

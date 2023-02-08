@@ -2,6 +2,7 @@
   display: block;
   margin: auto;
   margin-top: 90px;
+  text-decoration: none;
   font-size: 16px;
   text-decoration: wavy;
   width: 260px;
@@ -46,28 +47,32 @@
 .interest{
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 24px;
   align-items: center;
   justify-content: center;
 }
 
 .interest-title, 
 .interest-description{
-  padding: 5px;
+  padding: 10px;
   padding-top: 15px;
   overflow: hidden;
-  width: 500px;
+  width: 600px;
 }
 
 
 .interest-title{
+  background-color: rgb(77, 11, 11);
   font-size: 24px;
-  border-top: 3.5px black solid;
-  text-align: center;
-  font-size: large;
   font-weight: bold;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  color:  rgb(230, 228, 228);
 
 }
 .interest-description{
   text-align: justify;
+  margin-bottom: 100px;
 }

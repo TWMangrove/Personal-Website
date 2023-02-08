@@ -48,8 +48,8 @@ nav{
 .nav-link,
 .toggle-button
 {
-  border-top: 0.5px groove rgb(226, 226, 226);
-  border-bottom: 0.5px groove rgb(229, 229, 229);
+  border-top: 0.5px groove rgb(172, 172, 172);
+  border-bottom: 0.5px groove rgb(172, 172, 172);
   padding-top:20px;
   padding-bottom:20px;
   padding-left: 6px;

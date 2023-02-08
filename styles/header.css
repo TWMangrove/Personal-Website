@@ -26,7 +26,16 @@ header{
   margin: 10px;
   margin-left: 20px;
   flex:1;
-  overflow: auto;
+  overflow:hidden;
+}
+
+@media (max-width: 1000px){
+  .logo{
+    margin-top: 24px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+  } 
 }
 
 nav{
